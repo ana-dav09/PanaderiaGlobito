@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cliente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" 
+              rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css"/>
+         <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon"/>
+    </head>
+    <body>
+        <header class="header" >
+            <div class="logo" >
+                <h1>Panaderia el Globito</h1>
+                <img src="./img/logo.jpg" alt="logo">       
+            </div>
+            <nav class="menu" >
+                <a href="index.html">Principal</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Cliente.html">Cliente</a>
+                <a href="#">Productos</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <h2 class="titutlo-p" >Regístrate</h2>
+        <section class="login">
+            
+            <center>
+            <form class="formulario">
+                <p>Nombre: &nbsp;<input type= "text" name="nombre" placeholder ="Apellido Paterno Materno Nombre(s)" size = "40" required pattern="[A-Za-z0]+" title="Solo puedes escribir letras"></p>
+                <br>
+                <p>Fecha de nacimiento:&nbsp; <input type= "text" name="edad"  required placeholder="DD/MM/AA"></p>
+                <br>
+                <p>Correo electrónico: &nbsp;<input type= "email" name="correo" required placeholder="ejemplo1@gmail.com"></p>
+                <br>
+                <p>No. de tarjeta: &nbsp; <input type="number" name="Tarjeta" required placeholder="5555 5555 5555 5555"></p><br> 
+                 <input type="submit" name="Enviar"> &nbsp; <input type="reset" name="Borrar"><br><br><br>
+            </form></center>
+        </section>
+        <section class="hide" >
+            
+        </section>
+        <footer class="footer" >
+            <p>Desarrollado por Ana D. </p>
+        </footer>
+    </body>
+</html>
